@@ -577,6 +577,11 @@ img {
   display: block;
   transform: translateY(100%);
   transition: all 0.5s linear;
+  color: var(--title-grey-theme-color);
+  background-color: rgba(33, 150, 243, 0.9);
+}
+
+.text {
   padding-top: 63px;
   padding-right: 24px;
   padding-bottom: 63px;
@@ -584,8 +589,6 @@ img {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.556;
-  color: var(--title-grey-theme-color);
-  background-color: rgba(33, 150, 243, 0.9);
 }
 
 .our-projects-list-item-link:hover .overlay,
